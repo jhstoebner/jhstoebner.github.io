@@ -1,0 +1,67 @@
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+h1 {
+    color: rgb(151, 0, 70);
+    text-align: center;
+    font-size: 7em;
+    font-family: "dunhill-script", sans-serif;
+    font-weight: 600;
+    font-style: normal
+}
+
+a {
+    font-size: 2em;
+    font-family: "bogart", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    height: 800px;
+    margin: auto;
+    display: flex;
+}
+
+body {
+    background-color: rgb(202, 167, 255);
+}
+
+div.home-container {
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    max-width: 85rem;
+    margin: auto;
+    text-align: center;
+}
+
+div.option {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 3em;
+    margin: 2em;
+    padding: 5em;
+}
+
+a{
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(202, 167, 255);
+    text-decoration: none;
+}
+
+
+/*
+font-family: "dunhill-script", sans-serif;
+font-weight: 600;
+font-style: normal;
+
+font-family: "bogart", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "bogart", sans-serif;
+font-weight: 700;
+font-style: normal;
+*/
